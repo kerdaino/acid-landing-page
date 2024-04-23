@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    margin: auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fcb900;
+}
+
+header nav img{
+    background: none !important;
+}
+
+.hero{
+    /* background: url(../img/ACADI-PICS-2-1.png)  no-repeat; */
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+    /* color: #ffffff; */
+    text-align: center;
+}
